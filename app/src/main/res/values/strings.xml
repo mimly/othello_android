@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">othello</string>
+    <string name="play">PLAY</string>
+    <string name="playOnline">PLAY ONLINE</string>
+    <string name="highlights">HIGHLIGHTS</string>
+    <string name="exit">EXIT</string>
+    <string name="playerOne">PLAYER ONE:</string>
+    <string name="playerTwo">PLAYER TWO:</string>
+    <string name="gameOver">GAME OVER</string>
+</resources>

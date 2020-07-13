@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ResultFragment">
+
+    <TextView
+        android:id="@+id/playerOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:letterSpacing="0.1"
+        android:text="@string/playerOne"
+        android:textAlignment="center"
+        android:textColor="@color/playerOne"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/playerTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:fontFamily="casual"
+        android:letterSpacing="0.1"
+        android:text="@string/playerTwo"
+        android:textAlignment="center"
+        android:textColor="@color/playerTwo"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:letterSpacing="0.1"
+        android:text="@string/gameOver"
+        android:textAlignment="center"
+        android:textColor="@color/gameOver"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+</LinearLayout>
